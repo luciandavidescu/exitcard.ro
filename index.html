@@ -100,7 +100,7 @@
         <h3>Caracteristici</h3><dl>
         <dt>Moneda cardului</dt><dd>€</dd>
         <dt>Conturi</dt><dd>EUR</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN (!!!)</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
 	</dl>
       </section>
       <section>
@@ -131,6 +131,52 @@
       </section>
 <button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</button>
+    </article>
+
+    <article id="payoneer" class="merchant masspay iban usa bonus">
+      <h2>Payoneer</h2>
+	<data value="4" title="Patru stele"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="payoneer.jpg" alt="Payoneer Mastercard" /></picture>
+        <figcaption>SUA</figcaption>
+      </figure>
+      <section>
+        <h3>Caracteristici</h3>
+	<dl>
+        <dt>Moneda cardului</dt><dd>$/€/+</dd>
+        <dt>Conturi</dt><dd>EUR/USD/GBP/JPY/CNY</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Costuri</h3>
+	<dl>
+        <dt>Emitere</dt><dd>0</dd>
+        <dt>Mentenanță</dt><dd>25$/an</dd>
+        <dt>Inactivitate</dt><dd>N/A</dd>
+        <dt>Încasare din alt cont</dt><dd>0 (1% în SUA)</dd>
+        <dt>Încasare de la alt card</dt><dd>3%</dd>
+        <dt>Plată către orice cont</dt><dd>0</dd>
+        <dt>Plată către orice card</dt><dd>N/A</dd>
+	<dt>Transfer între utilizatori</dt><dd>0</dd>
+        <dt>Transfer e-wallet/card</dt><dd>0</dd>
+        <dt>Retragere ATM</dt><dd>3,15$ sau 2,5€</dd>
+        <dt>Plată POS/online</dt><dd>0</dd>
+        <dt>Schimb valutar</dt><dd>3%</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitări</h3>
+        <p>Nu poate fi în alimentat în mod normal de către posesor, doar de clienți sau angajatori.</p>
+      </section>
+      <section>
+        <h3>Avantaje</h3>
+	<p>Flexibilitate mare pentru profesioniști / se pot încasa plăți cu cardul de la terți.
+        <p>Cont individual în € (Germania), $ (SUA), £ (UK), ¥ (Japonia) și/sau Yuani (China).</p>
+        <p>Dacă te abonezi aici, acum, primești 25 de euro bonus.</p>
+      </section>
+<button type="submit" form="out" title="payoneer" formaction="payoneer.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</button>
     </article>
 
 <article id="sogexia" class="iban">
@@ -177,52 +223,6 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="payoneer" class="merchant masspay iban usa bonus">
-      <h2>Payoneer</h2>
-	<data value="4" title="Patru stele"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="payoneer.jpg" alt="Payoneer Mastercard" /></picture>
-        <figcaption>SUA</figcaption>
-      </figure>
-      <section>
-        <h3>Caracteristici</h3>
-	<dl>
-        <dt>Moneda cardului</dt><dd>$/€/+</dd>
-        <dt>Conturi</dt><dd>EUR/USD/GBP/JPY/CNY</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN (!!!)</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Costuri</h3>
-	<dl>
-        <dt>Emitere</dt><dd>0</dd>
-        <dt>Mentenanță</dt><dd>25$/an</dd>
-        <dt>Inactivitate</dt><dd>N/A</dd>
-        <dt>Încasare din alt cont</dt><dd>0 (1% în SUA)</dd>
-        <dt>Încasare de la alt card</dt><dd>3%</dd>
-        <dt>Plată către orice cont</dt><dd>0</dd>
-        <dt>Plată către orice card</dt><dd>N/A</dd>
-	<dt>Transfer între utilizatori</dt><dd>0</dd>
-        <dt>Transfer e-wallet/card</dt><dd>0</dd>
-        <dt>Retragere ATM</dt><dd>3,15$ sau 2,5€</dd>
-        <dt>Plată POS/online</dt><dd>0</dd>
-        <dt>Schimb valutar</dt><dd>3%</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitări</h3>
-        <p>Nu poate fi în alimentat în mod normal de către posesor, doar de clienți sau angajatori.</p>
-      </section>
-      <section>
-        <h3>Avantaje</h3>
-	<p>Flexibilitate mare pentru profesioniști / se pot încasa plăți cu cardul de la terți.
-        <p>Cont individual în € (Germania), $ (SUA), £ (UK), ¥ (Japonia) și/sau Yuani (China).</p>
-        <p>Dacă te abonezi aici, acum, primești 25 de euro bonus.</p>
-      </section>
-<button type="submit" form="out" title="payoneer" formaction="payoneer.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</button>
-    </article>
-
     <article id="paysera" class="merchant masspay iban">
       <h2>Paysera</h2>
 	<data value="4" title="Patru stele"></data>
@@ -234,7 +234,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</bu
         <h3>Caracteristici</h3><dl>
         <dt>Moneda cardului</dt><dd>€</dd>
         <dt>Conturi</dt><dd>RON,EUR,USD,CHF,+</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN (!!!)</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
 	</dl>
       </section>
       <section>
@@ -535,50 +535,6 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">COMANDĂ CARDUL</but
 onclick="ga('send', 'event', 'cards', 'order', 'payeer');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="okpay" class="merchant masspay transfer virtual bitcoin">
-      <h2>OKpay</h2>
-	<data value="1" title="O stea"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="okpay.jpg" alt="OKPay Mastercard" /></picture>
-        <figcaption>Cipru</figcaption>
-      </figure>
-      <section>
-        <h3>Caracteristici</h3>
-	<dl>
-        <dt>Moneda cardului</dt><dd>$</dd>
-        <dt>Conturi</dt><dd>EUR,USD</dd>
-        <dt>Opțiuni</dt><dd>Virtual</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Costuri</h3>
-	<dl>
-        <dt>Emitere</dt><dd>15$ / virtual la fel</dd>
-        <dt>Mentenanță</dt><dd>0,5%/lună</dd>
-        <dt>Inactivitate</dt><dd>5€/lună după 12 luni</dd>
-        <dt>Încasare din alt cont</dt><dd>1€</dd>
-        <dt>Încasare de la alt card</dt><dd>4%</dd>
-        <dt>Plată către orice cont</dt><dd>1% + 50€</dd>
-        <dt>Plată către orice card</dt><dd>4% + 7€</dd>
-	<dt>Transfer între utilizatori</dt><dd>0,5% (max.3€)</dd>
-        <dt>Transfer e-wallet/card</dt><dd>3$</dd>
-        <dt>Retragere ATM</dt><dd>2% (3$ - 15$)</dd>
-        <dt>Plată POS/online</dt><dd>0</dd>
-        <dt>Schimb valutar</dt><dd>[card]</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitări</h3>
-        <p>Opțiuni limitate la alimentarea și debitarea contului.</p>
-      </section>
-      <section>
-        <h3>Avantaje</h3>
-        <p>Poate fi încărcat de la automatele locale QIWI</p>
-      </section>
-	<button type="submit" form="out" title="okpay" formaction="okpay.html"
-onclick="ga('send', 'event', 'cards', 'order', 'okpay');">COMANDĂ CARDUL</button>
-    </article>
-
 <article id="payza" class="bitcoin">
       <h2>Payza</h2>
 	<data value="1" title="O stea"></data>
@@ -621,6 +577,50 @@ onclick="ga('send', 'event', 'cards', 'order', 'okpay');">COMANDĂ CARDUL</butto
       </section>
 	<button type="submit" form="out" title="payza" formaction="payza.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'payza');">COMANDĂ CARDUL</button>
+    </article>
+
+    <article id="okpay" class="merchant masspay transfer virtual bitcoin">
+      <h2>OKpay</h2>
+	<data value="1" title="O stea"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="okpay.jpg" alt="OKPay Mastercard" /></picture>
+        <figcaption>Cipru</figcaption>
+      </figure>
+      <section>
+        <h3>Caracteristici</h3>
+	<dl>
+        <dt>Moneda cardului</dt><dd>$</dd>
+        <dt>Conturi</dt><dd>EUR,USD</dd>
+        <dt>Opțiuni</dt><dd>Virtual</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Costuri</h3>
+	<dl>
+        <dt>Emitere</dt><dd>15$ / virtual la fel</dd>
+        <dt>Mentenanță</dt><dd>0,5%/lună</dd>
+        <dt>Inactivitate</dt><dd>5€/lună după 12 luni</dd>
+        <dt>Încasare din alt cont</dt><dd>1€</dd>
+        <dt>Încasare de la alt card</dt><dd>4%</dd>
+        <dt>Plată către orice cont</dt><dd>1% + 50€</dd>
+        <dt>Plată către orice card</dt><dd>4% + 7€</dd>
+	<dt>Transfer între utilizatori</dt><dd>0,5% (max.3€)</dd>
+        <dt>Transfer e-wallet/card</dt><dd>3$</dd>
+        <dt>Retragere ATM</dt><dd>2% (3$ - 15$)</dd>
+        <dt>Plată POS/online</dt><dd>0</dd>
+        <dt>Schimb valutar</dt><dd>[card]</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitări</h3>
+        <p>Opțiuni limitate la alimentarea și debitarea contului.</p>
+      </section>
+      <section>
+        <h3>Avantaje</h3>
+        <p>Poate fi încărcat de la automatele locale QIWI</p>
+      </section>
+	<button type="submit" form="out" title="okpay" formaction="okpay.html"
+onclick="ga('send', 'event', 'cards', 'order', 'okpay');">COMANDĂ CARDUL</button>
     </article>
 
 <footer>
