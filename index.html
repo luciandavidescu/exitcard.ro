@@ -47,7 +47,7 @@
 </div>
 <div class="when">
   <ul>
-          <li title="!"><b>Comisioane ATM: </b>Taxele de Retragere ATM sunt toate destuld e mari; cele fixe fac preferabile retragerile mari și cât mai rare, cele procentuale sunt mai potrivite pentru retragerile ocazionale. și tranzacțiile eșuate sunt în general taxate, cu câteva zeci de cenți.</li>
+          <li title="!"><b>Comisioane ATM: </b>Taxele de Retragere ATM sunt toate destul de mari; cele fixe fac preferabile retragerile mari și cât mai rare, cele procentuale sunt mai potrivite pentru retragerile ocazionale. și tranzacțiile eșuate sunt în general taxate, cu câteva zeci de cenți.</li>
           <li title="!"><b>Comisioane POS: </b>În mod normal, plata în magazin sau online ar trebui să fie gratis. Atenție, însă, există emitenți de carduri care percep o taxă chiar și în aceste cazuri!</li>
           <li title="!"><b>Alimentarea cardului: </b>Unele platforme percep o taxă chiar și atunci când banii sunt mutați din portofelul electronic pe card.</li>
           <li title="!"><b>Transferul bancar: </b>Comisioanele mici sau zero pentru transferul bancar sunt valabile la plățile SEPA; în cazul transferurilor SWIFT, comisioanele sunt substanțiale.</li>
@@ -67,6 +67,7 @@
           <li title="+"><b>Încasări online: </b>Unele dintre platforme oferă și posibilitatea de-a încasa plăți cu cardul de la clienți, de obicei în versiunea "business".</li>
           <li title="+"><b>Plăți în masă: </b>Majoritatea platformelor oferă posibilitatea de-a transfera bani, chiar și simultan către mai mulți beneficiari - salariați sau colaboratori.</li>
           <li title="+"><b>Cont IBAN: </b>Majoritatea emitenților de monedă electronică țin banii în conturi comune, însă există și câțiva care le deschid clienților câte un cont bancar individual, în format IBAN, la bănci din Uniunea Europeană.</li>
+          <li title="+"><b>Retragere Paypal: </b>Unele carduri permit fie debitarea soldului Paypal în cont (gratuit) fie direct pe card, contra unui comision de 5% (VISA). Pentru plata cu Paypal, oricare dintre carduri poate fi folosit dacă are o balanță minimă cât să poată fi verificat.</li>
           <li title="+"><b>Card virtual: </b>Dacă te grăbești, există și varianta de card virtual, emis instant și de obicei mai ieftin decât versiunea de plastic - primești un număr de card, data expirării și CVC-ul, pe care le poți folosi la plăți online. Desigur, sunt imposibile plățile în magazin sau la bancomat.</li>
           <li title="+"><b>Utilizator anonim: </b>Unii emitenți acceptă aplicația fără documente, caz în care există limite totale de rulaj. Limitele sunt ridicate deîndată ce se va putea face validarea datelor. Aceste carduri "anonime" pot fi folosite și dacă vrei să comanzi cardul pentru altcineva - de exemplu un copil.</li>
           <li title="+"><b>Transfer Bitcoin: </b>Avantajele plăților în bitcoin sunt costurile mici și anonimitatea. Atenție, însă, cotația bitcoin este foarte fluctuantă iar în cazul utilizării greșite a datelor banii se pierd fără posibilitatea de recuperare.</li>
@@ -81,7 +82,7 @@
           <li title="5"><b>Joci la pariuri</b> pe internet și ți-e teamă să nu te trezești pe vreo "listă neagră", așa cum s-a mai întâmplat.</li>
           <li title="6"><b>Eviți bazele de date cu rău-platnici</b>, unde riști să ajungi pentru că ai uitat de un card bancar cu sold zero, pe care s-au adunat comisioane.</li>
           <li title="7"><b>Păstrezi confidențialitatea banilor tăi</b>, chiar și după ce legea a încetat să mai protejeze secretul bancar în relația cu funcționarii statului.</li>
-          <li title="8"><b>Îți ții veniturile la adăpost</b> de o poprire pe conturi, pentru datorii despre care poate că încă nici n-ai aflat, chiar și de câteva zeci de lei.</li>
+          <li title="8"><b>Îți ții veniturile la adăpost</b> de o poprire pe conturi, pentru datorii despre care poate că încă nici n-ai aflat, sau dacă ești pe vreo listă de rău-platnici.</li>
           <li title="9"><b>Te ferești de de o blocare a întregului sistem bancar</b>, cu rații de bani, cozi la bancomate și confiscarea economiilor populației, așa cum s-a întâmplat deja în Grecia sau în Cipru.</li>
           <li title="10"><b>Vrei să ai rezerve de urgență</b>, în caz că va trebui să fugi din țară din diverse motive - începând de la violență domestică sau amenințări mafiote și ajungând la persecuții politice sau stare de război.</li>
         </ol>
@@ -89,7 +90,7 @@
 
 </main>
 
-    <article id="viabuy" class="iban exclusive">
+    <article id="viabuy">
       <h2>Viabuy</h2>
 	<data value="5" title="Cinci stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -100,7 +101,7 @@
         <h3>Caracteristici</h3><dl>
         <dt>Moneda cardului</dt><dd>€</dd>
         <dt>Conturi</dt><dd>EUR</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN, Paypal</dd>
 	</dl>
       </section>
       <section>
@@ -128,12 +129,13 @@
 	<p>Costul pe toată durata de utilizare este cel mai redus, în cazul folosirii frecvente online, în magazin și/sau pentru transferuri bancare</p>
         <p>Procesul de înregistare este cel mai simplu și mai rapid.</p>
         <p>Poate fi alimentat și de pe un alt card</p>
+	<p>Contul este compatibil cu Paypal</p>
       </section>
 <button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="payoneer" class="merchant masspay iban usa bonus">
+    <article id="payoneer">
       <h2>Payoneer</h2>
 	<data value="4" title="Patru stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -168,6 +170,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</butt
       <section>
         <h3>Limitări</h3>
         <p>Nu poate fi în alimentat în mod normal de către posesor, doar de clienți sau angajatori.</p>
+	<p>Contul NU este compatibil cu Paypal</p>
       </section>
       <section>
         <h3>Avantaje</h3>
@@ -179,7 +182,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</button>
     </article>
 
-<article id="sogexia" class="iban">
+<article id="sogexia">
       <h2>Sogexia</h2>
 	<data value="4" title="Patru stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -191,7 +194,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</bu
 	<dl>
         <dt>Moneda cardului</dt><dd>€</dd>
         <dt>Conturi</dt><dd>EUR</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN, Paypal</dd>
 	</dl>
       </section>
       <section>
@@ -218,12 +221,13 @@ onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</bu
       <section>
         <h3>Avantaje</h3>
         <p>Cost mic de retragere la bancomat</p>
+	<p>Contul este compatibil cu Paypal</p>
       </section>
 	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="paysera" class="merchant masspay iban">
+    <article id="paysera">
       <h2>Paysera</h2>
 	<data value="4" title="Patru stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -234,7 +238,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</but
         <h3>Caracteristici</h3><dl>
         <dt>Moneda cardului</dt><dd>€</dd>
         <dt>Conturi</dt><dd>RON,EUR,USD,CHF,+</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN, Paypal</dd>
 	</dl>
       </section>
       <section>
@@ -260,13 +264,14 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</but
       <section>
         <h3>Avantaje</h3>
         <p>Cost mic de retragere de la bancomat</p>
+	<p>Contul și cardul sunt compatibile cu Paypal</p>
         <p>Există posibilitatea încasării în cont în lei (via Unicredit) și a plății către alte conturi în lei (3,5 lei/transfer).</p>
       </section>
 	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'paysera');">COMANDĂ CARDUL</button>
     </article>
 
-<article id="skrill" class="merchant masspay betting">
+<article id="skrill">
       <h2>Skrill</h2>
 	<data value="3" title="Trei stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -357,7 +362,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'skrill');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'paymix');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="epayments" class="merchant masspay anonymous bitcoin">
+    <article id="epayments">
       <h2>ePayments</h2>
 	<data value="3" title="Trei stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -401,7 +406,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'epayments');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="worldcore" class="bitcoin">
+    <article id="worldcore">
       <h2>Worldcore</h2>
 	<data value="2" title="Două stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -446,7 +451,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'worldcore');">COMANDĂ CARDUL</b
     </article>
 
 
-    <article id="advcash" class="virtual anonymous bitcoin">
+    <article id="advcash">
       <h2>AdvCash</h2>
 	<data value="2" title="Două stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -490,7 +495,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'worldcore');">COMANDĂ CARDUL</b
 onclick="ga('send', 'event', 'cards', 'order', 'advcash');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="payeer" class="merchant masspay bitcoin">
+    <article id="payeer">
       <h2>Payeer</h2>
 	<data value="2" title="Două stele"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -535,7 +540,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">COMANDĂ CARDUL</but
 onclick="ga('send', 'event', 'cards', 'order', 'payeer');">COMANDĂ CARDUL</button>
     </article>
 
-<article id="payza" class="bitcoin">
+<article id="payza">
       <h2>Payza</h2>
 	<data value="1" title="O stea"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
@@ -579,7 +584,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'payza');">COMANDĂ CARDUL</button>
     </article>
 
-    <article id="okpay" class="merchant masspay transfer virtual bitcoin">
+    <article id="okpay">
       <h2>OKpay</h2>
 	<data value="1" title="O stea"></data>
       <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
