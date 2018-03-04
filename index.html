@@ -131,7 +131,7 @@
 	<p>Contul este compatibil cu Paypal</p>
       </section>
 <button type="submit" form="out" title="viabuy" formaction="viabuy.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'viabuy');" disabled>COMANDĂ CARDUL</button>
     </article>
 	
  <article id="payoneer">
@@ -180,51 +180,6 @@ onclick="ga('send', 'event', 'cards', 'order', 'viabuy');">COMANDĂ CARDUL</butt
 onclick="ga('send', 'event', 'cards', 'order', 'payoneer');">COMANDĂ CARDUL</button>
     </article>
 	
-<article id="sogexia">
-      <h2>Sogexia</h2>
-	<data value="4" title="Patru stele"></data>
-      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
-        <picture><img src="sogexia.jpg" alt="Sogexia Mastercard" /></picture>
-        <figcaption>Franța</figcaption>
-      </figure>
-      <section>
-        <h3>Caracteristici</h3>
-	<dl>
-        <dt>Moneda cardului</dt><dd>€</dd>
-        <dt>Conturi</dt><dd>EUR</dd>
-        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Costuri</h3>
-	<dl>
-        <dt>Emitere</dt><dd>9,9€</dd>
-        <dt>Mentenanță</dt><dd>0</dd>
-        <dt>Inactivitate</dt><dd>3€/lună după nouă luni</dd>
-        <dt>Încasare din alt cont</dt><dd>2%</dd>
-        <dt>Încasare de la alt card</dt><dd>2,5%</dd>
-        <dt>Plată către orice cont</dt><dd>0</dd>
-        <dt>Plată către orice card</dt><dd>N/A</dd>
-	<dt>Transfer între utilizatori</dt><dd>0</dd>
-        <dt>Transfer e-wallet/card</dt><dd>0</dd>
-        <dt>Retragere ATM</dt><dd>1€</dd>
-        <dt>Plată POS/online</dt><dd>0</dd>
-        <dt>Schimb valutar</dt><dd>3%</dd>
-	</dl>
-      </section>
-      <section>
-        <h3>Limitări</h3>
-        <p>Comisionul de 2% la încasare în cont devine substanțial la volume mari</p>
-	<p>Contul IBAN este deschis în Marea Britanie, astfel că NU este compatibil cu retragerea din Paypal</p>
-      </section>
-      <section>
-        <h3>Avantaje</h3>
-        <p>Cost mic de retragere la bancomat</p>
-      </section>
-	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</button>
-    </article>
-	
 <article id="paysera">
       <h2>Paysera</h2>
 	<data value="4" title="Patru stele"></data>
@@ -267,6 +222,51 @@ onclick="ga('send', 'event', 'cards', 'order', 'sogexia');">COMANDĂ CARDUL</but
       </section>
 	<button type="submit" form="out" title="paysera" formaction="paysera.html" 
 onclick="ga('send', 'event', 'cards', 'order', 'paysera');">COMANDĂ CARDUL</button>
+    </article>
+	
+<article id="sogexia">
+      <h2>Sogexia</h2>
+	<data value="4" title="Patru stele"></data>
+      <figure onclick="this.parentNode.getElementsByTagName('button')[0].click();">
+        <picture><img src="sogexia.jpg" alt="Sogexia Mastercard" /></picture>
+        <figcaption>Franța</figcaption>
+      </figure>
+      <section>
+        <h3>Caracteristici</h3>
+	<dl>
+        <dt>Moneda cardului</dt><dd>€</dd>
+        <dt>Conturi</dt><dd>EUR</dd>
+        <dt>Opțiuni</dt><dd>Cont IBAN</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Costuri</h3>
+	<dl>
+        <dt>Emitere</dt><dd>9,9€</dd>
+        <dt>Mentenanță</dt><dd>0</dd>
+        <dt>Inactivitate</dt><dd>3€/lună după nouă luni</dd>
+        <dt>Încasare din alt cont</dt><dd>2%</dd>
+        <dt>Încasare de la alt card</dt><dd>2,5%</dd>
+        <dt>Plată către orice cont</dt><dd>0</dd>
+        <dt>Plată către orice card</dt><dd>N/A</dd>
+	<dt>Transfer între utilizatori</dt><dd>0</dd>
+        <dt>Transfer e-wallet/card</dt><dd>0</dd>
+        <dt>Retragere ATM</dt><dd>1€</dd>
+        <dt>Plată POS/online</dt><dd>0</dd>
+        <dt>Schimb valutar</dt><dd>3%</dd>
+	</dl>
+      </section>
+      <section>
+        <h3>Limitări</h3>
+        <p>Comisionul de 2% la încasare în cont devine substanțial la volume mari</p>
+	<p>Contul IBAN este deschis în Marea Britanie, astfel că NU este compatibil cu retragerea din Paypal</p>
+      </section>
+      <section>
+        <h3>Avantaje</h3>
+        <p>Cost mic de retragere la bancomat</p>
+      </section>
+	<button type="submit" form="out" title="sogexia" formaction="sogexia.html" 
+onclick="ga('send', 'event', 'cards', 'order', 'sogexia');" disabled>COMANDĂ CARDUL</button>
     </article>
 
 <article id="skrill">
@@ -357,7 +357,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'skrill');">COMANDĂ CARDUL</butt
         <p>Posibilitatea de alimentare de pe alt card</p>
       </section>
 	<button type="submit" form="out" title="paymix" formaction="paymix.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'paymix');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'paymix');" disabled>COMANDĂ CARDUL</button>
     </article>
 
     <article id="epayments">
@@ -401,7 +401,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'paymix');">COMANDĂ CARDUL</butt
         <p>Cel mai mic comision pentru transferul de bani direct către orice alt număr de card: 3,5%.</p>
       </section>
 	<button type="submit" form="out" title="epayments" formaction="epayments.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'epayments');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'epayments');" disabled>COMANDĂ CARDUL</button>
     </article>
 
     <article id="worldcore">
@@ -445,7 +445,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'epayments');">COMANDĂ CARDUL</b
         <p>Taxa de ATM fixă înseamnă avantaj la retragerile mari</p>
       </section>
 	<button type="submit" form="out" title="worldcore" formaction="worldcore.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'worldcore');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'worldcore');" disabled>COMANDĂ CARDUL</button>
     </article>
 
 
@@ -535,7 +535,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'advcash');">COMANDĂ CARDUL</but
         <p>Cele mai ridicate limite de extragere de la bancomat: 5x1000 euro pe zi. Recomandat pentru retrageri mari în caz de urgență.</p>
       </section>
 	<button type="submit" form="out" title="payeer" formaction="payeer.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'payeer');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'payeer');" disabled>COMANDĂ CARDUL</button>
     </article>
 
     <article id="okpay">
@@ -579,7 +579,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'payeer');">COMANDĂ CARDUL</butt
         <p>Poate fi încărcat de la automatele locale QIWI</p>
       </section>
 	<button type="submit" form="out" title="okpay" formaction="okpay.html"
-onclick="ga('send', 'event', 'cards', 'order', 'okpay');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'okpay');" disabled>COMANDĂ CARDUL</button>
     </article>
 
 <article id="payza">
@@ -623,7 +623,7 @@ onclick="ga('send', 'event', 'cards', 'order', 'okpay');">COMANDĂ CARDUL</butto
         <p>Flexibilitate geografică și sectorială mai mare la încasări și plăți</p>
       </section>
 	<button type="submit" form="out" title="payza" formaction="payza.html" 
-onclick="ga('send', 'event', 'cards', 'order', 'payza');">COMANDĂ CARDUL</button>
+onclick="ga('send', 'event', 'cards', 'order', 'payza');" disabled>COMANDĂ CARDUL</button>
     </article>
 
 <footer>
